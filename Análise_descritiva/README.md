@@ -25,6 +25,10 @@ Para isso primeiro é preciso seguir algumas etapas:
 
 1. vetorização do vocabulário - neste caso eu preferiria usar o fasttext do que até mesmo o BERT, o motivo disso é que o fasttext é treinado com "sub"palavras, o que é bem adequado para contextos em que a escrita não é toda certinha, sendo mais tolerante para erros de digitação, palavras incompletas e até palavras fora do vocabulário. É inegável a perda de qualidade na representação semântica em relação a outros métodos, porém a tolerância se torna um fator bastante relevante para esse contexto, completamente diferente do que seria num contexto voltado para reportagens ou produção acadêmica por exemplo.
 
+![](https://imgur.com/a/y55449W.png)
+
+_^--  visualização do treinamento com o fasttext com o gensim --^_
+
 2. aprendizado auto-supervisionado - similar a uma classificação mas sem o objetivo de classificar, apenas aprender um padrão, nesse caso poderia usar as categorias ou um conjunto de dados que nesse ponto seriam tabulares: calorias, gorduras, sódio, proteínas e avaliação. Para esta etapa seria bem mais simples implementar usando alguma framework voltada para deep learning como o pytorch ou keras, a rede neural teria pelo menos uma camada recorrent ou de atenção, e algumas camadas lineares, sendo que após o treinamento, habitualmente se usa a saída da penúltima camada para fazer essa representação espacial, mas dependendo da quantidade de camadas de saída (no caso das categorias, mais de 600), a saída da última camada pode ser o suficiente.*
 
 O alto custo computacional aqui foi um problema que tornou a conclusão inviável, utilizando os dados completos, cada época no treinamento demoraria mais de 6 horas, reduzi a quantidade dedos e cada época ainda passou a demorar aproximadamente 2 horas usando a GPU do google colab, a implementação pode ser vista neste [link](https://colab.research.google.com/drive/1a3APFg5LcPsSwtkXMaFhMY3K5tu7YV6-?usp=sharing)
