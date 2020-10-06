@@ -2,7 +2,7 @@ o  dataset é bem plural em relação a diversidade de dados, desde séries temp
 
 ## 1. A Questão das séries temporais
 
-(ver notebook)[https://github.com/demacdolincoln/teste-cientista-de-dados/blob/master/An%C3%A1lise_descritiva/Regress%C3%A3o.ipynb]
+[ver notebook](https://github.com/demacdolincoln/teste-cientista-de-dados/blob/master/An%C3%A1lise_descritiva/Regress%C3%A3o.ipynb)
 
 Trabalhar com dados implica necessariamente numa atualização periódica dos modelos treinados, isso ocorre porque no mundo real tudo sempre está em transformação, desse modo temos 2 alternativas: tornar o aprendizado dos algoritmos contínuo ou medir a qualidade dos resultados em relação a blocos de dados separados em função do tempo para entender até onde estar defasado realmente prejudica os resultados.
 
