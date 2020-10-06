@@ -1,0 +1,31 @@
+{
+
+    "embeddings":[
+        {
+            "tensor_name": "classificação",
+            "tensorShape": [
+                669,
+                2
+            ],
+            "tensor_path": "classificação/tensors.tsv",
+            "metadata_path": "classificação/metadata.tsv"
+        },
+        {
+            "tensor_name": "clusterização",
+            "tensorShape": [
+                14999,
+                10
+            ],
+            "tensor_path": "clusterização/tensors.tsv"
+        },
+        {
+            "tensor_name": "regressão",
+            "tensorShape": [
+                714,
+                7
+            ],
+            "tensor_path": "regressão/tensors.tsv",
+            "metadata_path": "regressão/metadata.tsv"
+        }
+    ]
+}
