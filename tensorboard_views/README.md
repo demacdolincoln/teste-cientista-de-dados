@@ -1,0 +1,1 @@
+Visualização dos dados no (projector.tensorflow.org)[https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/demacdolincoln/teste-cientista-de-dados/master/tensorboard_views/projector_config.json]
