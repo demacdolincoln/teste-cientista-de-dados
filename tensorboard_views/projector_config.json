@@ -7,8 +7,8 @@
                 669,
                 2
             ],
-            "tensorPath": "classificação/tensors.tsv",
-            "metadataPath": "classificação/metadata.tsv"
+            "tensorPath": "https://raw.githubusercontent.com/demacdolincoln/teste-cientista-de-dados/master/tensorboard_views/classifica%C3%A7%C3%A3o/tensors.tsv",
+            "metadataPath": "https://raw.githubusercontent.com/demacdolincoln/teste-cientista-de-dados/master/tensorboard_views/classifica%C3%A7%C3%A3o/metadata.tsv"
         },
         {
             "tensorName": "clusterização",
@@ -16,7 +16,7 @@
                 14999,
                 10
             ],
-            "tensorPath": "clusterização/tensors.tsv"
+            "tensorPath": "https://raw.githubusercontent.com/demacdolincoln/teste-cientista-de-dados/master/tensorboard_views/clusteriza%C3%A7%C3%A3o/tensors.tsv"
         },
         {
             "tensorName": "regressão",
@@ -24,8 +24,8 @@
                 714,
                 7
             ],
-            "tensorPath": "regressão/tensors.tsv",
-            "metadataPath": "regressão/metadata.tsv"
+            "tensorPath": "https://raw.githubusercontent.com/demacdolincoln/teste-cientista-de-dados/master/tensorboard_views/regress%C3%A3o/tensors.tsv",
+            "metadataPath": "https://raw.githubusercontent.com/demacdolincoln/teste-cientista-de-dados/master/tensorboard_views/regress%C3%A3o/metadata.tsv"
         }
     ]
 }
