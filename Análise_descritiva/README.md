@@ -2,7 +2,7 @@ o  dataset é bem plural em relação a diversidade de dados, desde séries temp
 
 ## 1. A Questão das séries temporais
 
-({ver notebook})[https://github.com/demacdolincoln/teste-cientista-de-dados/blob/master/An%C3%A1lise_descritiva/Regress%C3%A3o.ipynb]
+(ver notebook)[https://github.com/demacdolincoln/teste-cientista-de-dados/blob/master/An%C3%A1lise_descritiva/Regress%C3%A3o.ipynb]
 
 Trabalhar com dados implica necessariamente numa atualização periódica dos modelos treinados, isso ocorre porque no mundo real tudo sempre está em transformação, desse modo temos 2 alternativas: tornar o aprendizado dos algoritmos contínuo ou medir a qualidade dos resultados em relação a blocos de dados separados em função do tempo para entender até onde estar defasado realmente prejudica os resultados.
 
@@ -25,7 +25,7 @@ Para isso primeiro é preciso seguir algumas etapas:
 
 1. vetorização do vocabulário - neste caso eu preferiria usar o fasttext do que até mesmo o BERT, o motivo disso é que o fasttext é treinado com "sub"palavras, o que é bem adequado para contextos em que a escrita não é toda certinha, sendo mais tolerante para erros de digitação, palavras incompletas e até palavras fora do vocabulário. É inegável a perda de qualidade na representação semântica em relação a outros métodos, porém a tolerância se torna um fator bastante relevante para esse contexto, completamente diferente do que seria num contexto voltado para reportagens ou produção acadêmica por exemplo.
 
-![](https://imgur.com/a/y55449W.png)
+![](https://i.imgur.com/TG4L1bi.png)
 
 _^--  visualização do treinamento com o fasttext com o gensim --^_
 
