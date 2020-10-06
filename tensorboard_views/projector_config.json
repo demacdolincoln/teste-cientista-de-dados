@@ -2,30 +2,30 @@
 
     "embeddings":[
         {
-            "tensor_name": "classificação",
+            "tensorName": "classificação",
             "tensorShape": [
                 669,
                 2
             ],
-            "tensor_path": "classificação/tensors.tsv",
-            "metadata_path": "classificação/metadata.tsv"
+            "tensorPath": "classificação/tensors.tsv",
+            "metadataPath": "classificação/metadata.tsv"
         },
         {
-            "tensor_name": "clusterização",
+            "tensorName": "clusterização",
             "tensorShape": [
                 14999,
                 10
             ],
-            "tensor_path": "clusterização/tensors.tsv"
+            "tensorPath": "clusterização/tensors.tsv"
         },
         {
-            "tensor_name": "regressão",
+            "tensorName": "regressão",
             "tensorShape": [
                 714,
                 7
             ],
-            "tensor_path": "regressão/tensors.tsv",
-            "metadata_path": "regressão/metadata.tsv"
+            "tensorPath": "regressão/tensors.tsv",
+            "metadataPath": "regressão/metadata.tsv"
         }
     ]
 }
